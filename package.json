@@ -1,0 +1,26 @@
+{
+  "name": "@atek-cloud/browser-rpc",
+  "version": "0.0.1",
+  "description": "A browser JSON-RPC API",
+  "main": "dist/index.build.js",
+  "scripts": {
+    "build": "esbuild index.js --bundle --outfile=index.build.js --format=esm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atek-cloud/browser-rpc.git"
+  },
+  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atek-cloud/browser-rpc/issues"
+  },
+  "homepage": "https://github.com/atek-cloud/browser-rpc#readme",
+  "dependencies": {
+    "jsonrpc-lite": "^2.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
